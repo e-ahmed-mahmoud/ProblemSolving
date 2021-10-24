@@ -18,11 +18,11 @@ namespace ProblemSlovingTest
         [TestCase("0","0",false)]
         [TestCase("k","0f",false)]
         [TestCase("k","f",false)]
-        public void GreateStringNumber_PassStringNumbers_ReturnTrueIfFirstIsGreaterOtherFalse(string num1,string num2, bool expectedResult)
+        public void GreaterStringNumber_PassStringNumbers_ReturnTrueIfFirstIsGreaterOtherFalse(string num1,string num2, bool expectedResult)
         {
            var stringNumbersComparison = new StringNumbersComparison();
 
-           var result = stringNumbersComparison.GreateStringNumber(num1, num2);
+           var result = stringNumbersComparison.GreaterStringNumber(num1, num2);
 
            Assert.That(result, Is.EqualTo(expectedResult));
         }

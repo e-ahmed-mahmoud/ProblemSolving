@@ -7,8 +7,7 @@ namespace ProblemSolving
         static void Main(string[] args)
         {
             var stringNumbersCompare = new StringNumbersComparison();
-            var res = stringNumbersCompare.GreateStringNumber("k","0");
-
+            var res = stringNumbersCompare.GreaterStringNumber("k","0");
 
             Console.WriteLine(res);
         }

@@ -5,7 +5,7 @@ namespace ProblemSolving
     public class StringNumbersComparison
     {
         //validate if first number is greater than second without convert them. 
-        public bool GreateStringNumber(string num1, string num2)
+        public bool GreaterStringNumber(string num1, string num2)
         {
             try
             {
